@@ -66,10 +66,14 @@ Al crear tu repo, tú quedas como dueño/admin de ese repositorio específico. N
 Esto evita que se rompa el proyecto por accidente (incluso a ti mismo):
 
 1. `Settings` del repo → `Branches` → `Add rule`
-2. Nombre de la rama: `main` o por la que este por defecto.
+2. Ir hacia `Target branches` Nombre de la rama: `main` o por la que este por defecto.
 3. Activa:
    - [!] Require a pull request before merging
    - [!] Require approvals (mínimo 1)
+4. Ademas de todo eso, hay que hacer un acceso especial
+   - En la misma pagina anterior, ir hacia `Bypass lis`
+   - `Add bypass` y seleccionar a su perfil `No fallen en eso`
+5. Una vez tenga todo lo anterior, ir hacia abajo y `create`.
 
 Esto se configura **una sola vez por repo** y queda para siempre.
 Asegurate que este en publico para que la regla se aplique.
